@@ -11,7 +11,7 @@ All paths below are relative to this skill's folder (the folder this SKILL.md is
 On Windows the Python is `.venv\Scripts\python.exe` instead of `.venv/bin/python`.
 
 ## 1. First run: set up (once)
-Run `bash scripts/setup.sh` (Windows: `powershell -ExecutionPolicy Bypass -File scripts\setup.ps1`). It prints `READY` when done. The first time takes 2 to 3 minutes.
+Run `bash scripts/setup.sh` (Windows: `powershell -ExecutionPolicy Bypass -File scripts\setup.ps1`) and wait for it in the foreground (allow up to 10 minutes). It prints `READY` when done. The first time takes 2 to 3 minutes; after that it finishes in seconds, so running it again is harmless.
 - `NEED_FFMPEG`: install it for them. Mac: `brew install ffmpeg` (no `brew`? tell them to install Homebrew from brew.sh first). Windows: `winget install ffmpeg`.
 - `NEED_PYTHON`: install Python 3.12 (Mac: `brew install python@3.12`, Windows: `winget install Python.Python.3.12`), then run setup again.
 
