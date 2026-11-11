@@ -1,0 +1,8 @@
+.venv/
+models/*.tflite
+__pycache__/
+*.pyc
+.DS_Store
+work/
+*_reelfx.mp4
+*_reelfx_check*.png

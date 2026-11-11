@@ -1,0 +1,7 @@
+{"effects": [
+  {"fx": "glass-widgets", "start": 0.0, "end": 1.8, "text": "25", "label": "free effects"},
+  {"fx": "orbit", "start": 2.0, "end": 4.0},
+  {"fx": "spotlight", "start": 4.2, "end": 5.6, "text": "Claude"},
+  {"fx": "reject-stamp", "start": 6.0, "end": 7.2, "text": "NO EDITOR"},
+  {"fx": "comment-type", "start": 7.6, "end": 10.0, "text": "REPO"}
+]}
